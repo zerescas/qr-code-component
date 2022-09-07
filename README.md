@@ -5,7 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-`  - [Screenshot](#screenshot)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -67,7 +67,7 @@ It center an element but break HTML flow. It works with only one element on a we
 
 ### Useful resources
 
-- [Comphensive guide about CSS Flexboxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - 
+- [Comphensive guide about CSS Flexboxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
 
 ## Author
 
