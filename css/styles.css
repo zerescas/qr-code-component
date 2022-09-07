@@ -34,13 +34,14 @@ body {
 }
 
 .qr-code-header {
-    font-weight: 700;
     color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .qr-code-description {
-    font-size: 16px;
     color: hsl(220, 15%, 55%);
+    font-size: 1rem;
     padding: 0 28px 10px;
 }
 
