@@ -58,17 +58,17 @@ It looks fine with one section on a webpage but with a footer it becomes more un
 Some time later I learned about flexboxes and want use it. So I end up with a such structure:
 
 ```html
-<div class="page">
+<body> <!-- flex column -->
 
-  <section class="content">
+  <main class="content"> <!-- flex row -->
 
     <div class="qr-code-container"></div>
 
-  </section>
+  </main>
 
   <footer class="footer"></footer>
 
-</div>
+</body>
 ```
 
 ### Continued development
