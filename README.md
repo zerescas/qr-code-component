@@ -36,7 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 This is one of the first pages made myself looking only on a design. Troubles were appearing already on beginning. Which CSS properties should I use to complete the challenge with a preferably normal solution. Maybe I should use a display tag?
 
 ```css
-.elem {
+.section {
   display: absolute;
   right: 50%;
   bottom: 50%;
@@ -44,7 +44,18 @@ This is one of the first pages made myself looking only on a design. Troubles we
 }
 ```
 
-It center an element but break HTML flow. It works with only one element on a webpage but what if it will be more elements on a webpage. After some time I realized that I should better to learn about flexboxes and use it. So I end up with a such structure:
+It looks fine with one section on a webpage but with a footer it becomes more uncontrollable and messy set of CSS properties. 
+
+```css
+.footer {
+  display: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+```
+
+Some time later I learned about flexboxes and want use it. So I end up with a such structure:
 
 ```html
 <div class="page">
