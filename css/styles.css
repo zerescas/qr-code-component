@@ -1,16 +1,26 @@
 body {
-    font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Page Section */
+
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
 }
 
 /* Content Section */
 
 #content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 95%;
+    flex-grow: 10;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 /* QR code Section */
@@ -18,11 +28,6 @@ body {
 .qr-code-container {
     background-color: hsl(0, 0%, 100%);
     width: 315px;
-    position: absolute;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    text-align: center;
     padding: 18px;
     border-radius: 24px;
     box-shadow: 0 0 52px hsla(0, 0%, 0%, 0.05);
@@ -47,25 +52,19 @@ body {
 /* Footer Section */
 
 #footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5%;
+    margin: 24px;
 }
 
 /* Attribution Section */
 
 .attribution {
     font-size: 12px;
-    text-align: center;
-
     color: hsl(220, 15%, 55%);
 }
 
-.attribution a {
-    background-color: hsl(216, 95%, 57%);
-    color: white;
+/* Button Section */
+
+.btn {
     text-decoration: none;
     margin: 2px;
     padding: 4px;
@@ -73,6 +72,11 @@ body {
     font-weight: 500;
 }
 
-.attribution a:hover {
+.btn-primary {
+    background-color: hsl(216, 95%, 57%);
+    color: white;
+}
+
+.btn-primary:hover {
     background-color: hsl(216, 100%, 65%);
 }
