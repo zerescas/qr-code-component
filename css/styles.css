@@ -1,26 +1,20 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    text-align: center;
     margin: 0;
-}
 
-/* Page Section */
-
-.page {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
     height: 100vh;
 }
 
 /* Content Section */
 
-#content {
-    flex-grow: 10;
+.content {
     display: flex;
-    flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    flex-grow: 10;
 }
 
 /* QR code Section */
@@ -31,6 +25,7 @@ body {
     padding: 18px;
     border-radius: 24px;
     box-shadow: 0 0 52px hsla(0, 0%, 0%, 0.05);
+    text-align: center;
 }
 
 .qr-code-image {
@@ -44,9 +39,9 @@ body {
 }
 
 .qr-code-description {
-    font-size: 15px;
+    font-size: 16px;
     color: hsl(220, 15%, 55%);
-    padding: 0 32px 10px;
+    padding: 0 28px 10px;
 }
 
 /* Footer Section */
