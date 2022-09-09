@@ -83,3 +83,9 @@ Some time later I learned about flexboxes and want use it. So I end up with a su
 ## Author
 
 - Twitter [https://twitter.com/zerescas](https://twitter.com/zerescas)
+
+## Acknowledgments
+
+Big thanks to https://www.frontendmentor.io/profile/romila2003 for the [tips in comments section](https://www.frontendmentor.io/solutions/qr-code-component-using-css-flexbox-vQdnR-oUSX) after which I: 
+- Made fixes accessibility issues (absent of <main> and <h1>
+- Refactored code (a useless flex-wrapper around a main content was deleted and replaced by <body> with flex properties) 
